@@ -10,7 +10,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     }
 
     // Dummy token
-    const dummyToken = 'dummy-token'; // Replace with actual token logic
+    const dummyToken = 'dummy-token'; 
 
     // Simulate successful registration
     res.status(201).json({
